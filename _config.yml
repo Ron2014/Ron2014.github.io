@@ -10,8 +10,8 @@ url: http://Ron2014.github.io
 # For a project page here should be a project name. Otherwise (for user's/organization's page leave it empty)
 baseurl: ''
 
-author: Pavel Makhov
-copyright: 2015-2018
+author: Ron Eureka
+copyright: 2020
 
 share:
   facebook: true
@@ -23,7 +23,7 @@ share:
 
 social:
   github: Ron2014
-  stackoverflow: ''
+  stackoverflow: 'ron_dev'
   linkedin:
   instagram: ''
   lastfm: ''
@@ -38,7 +38,7 @@ yandex_metrica:
 # Set this to your disqus shortname to enable comments. Note that the 'comments'
 # setting below must also be true. Individual posts can override 'comments' to
 # disable on a post-by-post basis
-disqus: Ron2014
+disqus: roneureka
 comments: false
 
 permalink: /:year/:month/:title/
