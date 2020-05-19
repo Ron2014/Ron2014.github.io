@@ -38,6 +38,8 @@ tags:
 
 相信 pensieve + github + PicGo（图床工具）将会让我更加善于表达自己吧。
 
+![My helpful screenshot]({{ '/assets/images/pensieve_of_dumbledore.jpg' | relative_url }}){: .center-image }*pensieve of dumbledore*
+
 
 # 代替方案？
 
@@ -147,7 +149,7 @@ cyberpunk 想要表达的是科技垄断、两极分化，世界濒临崩塌的�
 
 最终你会发现，一切的工作都是文字编辑。而这些文字中，必有闪光的词语，Aloha，Magi，Present，Cyberpunk，Eureka，Pensieve，如同一道道咒语，闪过历史的苍穹，就像每个人心中必然存在的光芒一般。
 
-![My helpful screenshot]({{ '/assets/images/HP1.jpg' | relative_url }}){: .center-image }*Expecto Patronum: Eureka VS Terror*
+![My helpful screenshot]({{ '/assets/images/expecto_patronum1.jpg' | relative_url }}){: .center-image }*Expecto Patronum: Eureka VS Terror*
 
 我很感激这些科幻小说、电影不断去挖掘科学的人文内涵，但有些不合逻辑的招黑剧情确实显得太过故意。举个简单的例子，《西部世界》中的机器人觉醒，更大的可能是，最早出现在某个角色扮演类游戏（RPG）中的数字人类，或者某个实验性质的虚拟乐园中可以进行时间压缩式的上千亿次训练，这样根本就不会发生到现实世界杀人的惨剧。如果将来很多工作被机器人代替，那个时候，AI的调试和维护将需要很多的人力。
 
@@ -167,4 +169,4 @@ Eureka!
 
 我领略的东西你可能从未见过，甚至不敢相信……
 
-![My helpful screenshot]({{ '/assets/images/Snipaste_2020-05-19_22-21-42.png' | relative_url }}){: .center-image }*Roy in Blade Runner*
+![My helpful screenshot]({{ '/assets/images/roy_of_blade_runner.png' | relative_url }}){: .center-image }*Roy in Blade Runner*
