@@ -1,16 +1,17 @@
 ---
 layout: post
-title: hello world
+title: Hello World
 date: 2020-05-15 02:57
 description: 如果赛博不再朋克……
 toc: true
+tags:
+ - blog
+ - cyberpunk
 ---
-
-# Hello, world.
 
 欢迎来到 cybeureka's pensieve. 中文名：赛博尤里卡的冥想盆。
 
-## 网站的由来
+# 网站的由来
 
 
 很早的时候痴迷时间管理的理论，自己搭了个 [redmine](https://redmine.cybeureka.com/) 用来记录业余时间想做的事情。在面试某工作室的时候，被路人朋友附了个域名，之前都是 `IP地址:端口号` 的方式访问。刚好最近在复习计算机网络理论，看到 `DNS域名解析` 的章节，总觉得该是时候拿点东西来练练手了。
@@ -38,7 +39,7 @@ toc: true
 相信 pensieve + github + PicGo（图床工具）将会让我更加善于表达自己吧。
 
 
-## 代替方案？
+# 代替方案？
 
 
 你可能会问：
@@ -50,7 +51,7 @@ toc: true
 
 让我抒发一下使用感受。
 
-### 页面版本的文本编辑普遍难用
+## 页面版本的文本编辑普遍难用
 
 微信公众号操作有两种方式，一是原平台的编辑页面，而是135Editor。两个都用过之后，虽然135Editor差强人意，但是还是太难用。
 
@@ -74,7 +75,7 @@ makedown 用顺手之后，很难再回到以前那种低效的编辑方式了�
 
 ![My helpful screenshot]({{ '/assets/images/code_editor.jpg' | relative_url }}){: .center-image }*code editor is the REAL colorful world!*
 
-### 公家的东西必有强硬的审核机制
+## 公家的东西必有强硬的审核机制
 
 目前 CSDN 支持 markdown，但是作为主流平台，它和微信、B站等有个审核系统，发布或者修改，提交后动不动要几个小时链接才会生效。
 
@@ -88,7 +89,7 @@ makedown 用顺手之后，很难再回到以前那种低效的编辑方式了�
 
 而且，只要 github page 更新页面的效率超高（应该是没有审核）。
 
-### 自家的东西想改就改，说话可以不算话
+## 自家的东西想改就改，说话可以不算话
 
 程序员做久了，diff 自己的现象会越来越多。代码提交到 SVN 上根本就不代表工作完成，一个追求真理的程序员脑海中还会萦绕这些问题：
 
@@ -102,7 +103,7 @@ makedown 用顺手之后，很难再回到以前那种低效的编辑方式了�
 
 这让我大量文章都宁愿躺在后台仓库里，不见天日。
 
-### 碎片化+自定义
+## 碎片化+自定义
 
 这一点其实 github 已经满足了，但是 repo - wiki 的形式感觉太重度。
 
@@ -119,7 +120,7 @@ github 改不了主题，但 github page 博客是自由定制的。
 最后提一下，gist 既然这么像程序员版的 twitter，毫无疑问，它被墙了（似乎更适合做为吐槽工具了）。
 
 
-## 关于 cybeureka 的由来
+# 关于 cybeureka 的由来
 
 
 cybeureka 是个合成词：cyber（控制论）+ eureka（我发现了）。
