@@ -33,7 +33,7 @@ n = input()
 print("ABCD"*n)
 {% endhighlight python %}
 
-当然，AC并不能代表什么。这是个多线程的题目，耐心来做才会有收获。至少，我发现它有以下考点：
+AC并不能代表什么。这是个多线程的题目，耐心来做才会有收获。至少，我发现它有以下考点：
 
 - 逻辑实现：这个逻辑很简单，就是 g_write 的字符录入
 - 不同操作系统的API：库文件、函数名
@@ -1203,3 +1203,5 @@ while True:
     print("".join(g_write))
     
 {% endhighlight python %}
+
+![img]({{ '/assets/images/yeah.gif' | relative_url }}){: .center-image }*写完了附加题2的我*

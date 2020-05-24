@@ -121,6 +121,7 @@ github 改不了主题，但 github page 博客是自由定制的。
 
 最后提一下，gist 既然这么像程序员版的 twitter，毫无疑问，它被墙了（似乎更适合做为吐槽工具了）。
 
+![img]({{ '/assets/images/alita0.gif' | relative_url }}){: .center-image }*cyberpunk*
 
 # 关于 cybeureka 的由来
 
@@ -169,4 +170,4 @@ Eureka!
 
 我领略的东西你可能从未见过，甚至不敢相信……
 
-![img]({{ '/assets/images/roy_of_blade_runner.png' | relative_url }}){: .center-image }*Roy in Blade Runner*
+![img]({{ '/assets/images/roy.gif' | relative_url }}){: .center-image }*Roy in Blade Runner*
