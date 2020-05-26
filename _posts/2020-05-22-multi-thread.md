@@ -1204,4 +1204,4 @@ while True:
     
 {% endhighlight python %}
 
-![img]({{ '/assets/images/yeah.gif' | relative_url }}){: .center-image }写完了附加题2的我
+![img]({{ '/assets/images/yeah.gif' | relative_url }}){: .center-image }*写完了附加题2的我*
