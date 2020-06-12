@@ -138,6 +138,16 @@ Root对象的局部坐标系就是惯性坐标系(与世界坐标系平行), 一
 
 Unity提供旋转计算的API都是使用的四元数, Rotation 仅仅是给人看的, 因为它比较直观.
 
+关于四元数的资料请参考
+
+- <3D数学基础:图形与游戏开发> 10.4 四元数
+- <游戏引擎架构> 4.4 四元数
+- [【Unity编程】四元数(Quaternion)与欧拉角](https://blog.csdn.net/AndrewFan/article/details/62057519)
+- [四元数与三维旋转](https://krasjet.github.io/quaternion/quaternion.pdf)
+- [四元数的可视化](https://www.bilibili.com/video/BV1SW411y7W1)
+- [四元数和三维转动，可互动的探索式视频](https://www.bilibili.com/video/BV1SW411y7W1)
+- [Visualizing quaternions - An explorable video series](https://eater.net/quaternions)
+
 ### 利用它的规律
 
 上面产生的死锁, 是因为旋转X轴后, X-Z平面坐标系(局部坐标系)与Y轴坐标系(惯性坐标系)不一样了.
