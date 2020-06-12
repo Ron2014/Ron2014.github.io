@@ -6,6 +6,7 @@ description:
 toc: true
 tags:
  - matrix
+ - rotation
  - unity
  - physical
 ---
@@ -138,7 +139,7 @@ Root对象的局部坐标系就是惯性坐标系(与世界坐标系平行), 一
 
 Unity提供旋转计算的API都是使用的四元数, Rotation 仅仅是给人看的, 因为它比较直观.
 
-关于四元数的资料请参考
+关于四元数的资料请看
 
 - <3D数学基础:图形与游戏开发> 10.4 四元数
 - <游戏引擎架构> 4.4 四元数
