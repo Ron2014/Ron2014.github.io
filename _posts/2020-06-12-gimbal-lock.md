@@ -158,7 +158,11 @@ Unity提供旋转计算的API都是使用的四元数, Rotation 仅仅是给人�
 
 最后附上飞机的简易结构图.
 
-![img]({{ '/assets/images/gimbal_lock5.gif' | relative_url }}){: .center-image }*Pitch-Elevator-升降舵, Roll-Aileron-*翼, Yaw-Rudder-方向舵]
+![img]({{ '/assets/images/gimbal_lock5.gif' | relative_url }}){: .center-image }*Pitch-Elevator-升降舵, Roll-Aileron-副翼, Yaw-Rudder-方向舵]
+
+还有我为什么要研究万向锁...
+
+![img]({{ '/assets/images/gimbal_lock2.png' | relative_url }}){: .center-image }*这个辅助很有内涵*
 
 ## 参考资料
 
