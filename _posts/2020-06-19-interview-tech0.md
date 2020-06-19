@@ -63,3 +63,7 @@ tags:
     - 我只想做这个岗位, 想那么多干嘛
     - 我不知道, 我也不想去想这类烦心事
 {% endhighlight bash %}
+
+每次HR面难免会有些心里投射:
+
+![img]({{ '/assets/images/shawshank0.gif' | relative_url }}){: .center-image }*对于失去的过去, 可曾感受过懊悔?*
