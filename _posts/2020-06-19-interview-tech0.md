@@ -64,6 +64,6 @@ tags:
     - 我不知道, 我也不想去想这类烦心事
 {% endhighlight bash %}
 
-每次HR面难免会有些心里投射:
+有些无关紧要的问题, 真的是故意把人搞乱, 真想快点结束, 然后赶紧去做自己该干的活:
 
 ![img]({{ '/assets/images/shawshank0.gif' | relative_url }}){: .center-image }*对于失去的过去, 可曾感受过懊悔?*
