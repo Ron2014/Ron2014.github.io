@@ -2,7 +2,7 @@
 layout: post
 title: 万向锁
 date: 2020-06-12 10:56
-description: 
+description: 角函数之神给后人埋下的坑
 toc: true
 tags:
  - matrix
