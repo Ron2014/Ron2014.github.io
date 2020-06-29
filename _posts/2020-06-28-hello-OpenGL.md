@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 很多东西越是简单, 越值得玩味呀~
+title: 越是简单, 越值得反复把玩
 date: 2020-06-28 23:31
 description: 谨以此篇纪念我敲过的OpenGL
 toc: true
