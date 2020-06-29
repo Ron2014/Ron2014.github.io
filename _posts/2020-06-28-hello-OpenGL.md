@@ -9,13 +9,13 @@ tags:
  - OpenGL
 ---
 
-以前有人跟我说, 
+以前有人跟我说
 
 {% highlight bash %}
 不要重复造轮子
-{% endhighlight bash %}. 
+{% endhighlight bash %}
 
-那时候我很年轻, 简单得理解成了
+那时候我还很单纯, 简单理解成了
 
 {% highlight bash %}
 不要把时间花在一成不变的东西上, 做学术研究.
@@ -34,7 +34,7 @@ tags:
 
 我没读过 <DOOM启示录> 没有读过 <黑客, 计算机革命的英雄> 反倒是这本在计算机还没有发明的年代写成的未来科幻小说在启发我计算机可能会带来什么, 而那些计算机先驱们曾经让世界避免陷入了一个怎样可怕的时间分支.
 
-再说 lua, 这个胶水语言放在今天来讲已经不是知道语法就行了, 很多时候我会陷入
+再说 lua, 胶水语言放在今天来讲已经不是知道语法就没事了, 
 
 luajit UniLua ulua slua xlua
 
@@ -86,7 +86,7 @@ QT 底层用的 OpenGL
 
 这也让人不觉惊出一身冷汗, 我们正处在一个处处都讲究 "封装/继承/多态" 的世界.
 
-{% highlight %}
+{% highlight bash %}
 流于表面的工具在商业的推动下得到大肆的宣传
 而那些被包装在内核中的"基类"
 如果不去主动搜索和学习
@@ -94,7 +94,7 @@ QT 底层用的 OpenGL
 
 OpenGL 超级简单
 我也超级后悔: 为什么小时候不是物理学和计算机一起学呢?
-{% endhighlight %}
+{% endhighlight bash %}
 
 卡马克在试卷的背后给老师留言: 这些死记硬背的东西都太无聊了, 你为什么不给我个项目做呢? 你说什么我都能给你做出来.
 
@@ -104,18 +104,18 @@ OpenGL 超级简单
 
 忘了这句话吧, "重复的轮子不要造", 取而代之的是
 
-{% highlight %}
+{% highlight bash %}
 越是简单的东西, 越值得反复把玩.
-{% endhighlight %}
+{% endhighlight bash %}
 
 lua 就很简单, 所以才这么多人会改造它. 面试的时候也会遇到很多
 
-{% highlight %}
+{% highlight bash %}
 long(在不同平台上)占多少个字节
 空类占多少个字节
 怎么解决粘包问题
 如何编程增加CPU缓冲的命中率
-{% endhighlight %}
+{% endhighlight bash %}
 
 都是很小的问题, 用一个main函数就可以搞定, 但值得去制定丰富的测试用例.
 
@@ -135,10 +135,10 @@ long(在不同平台上)占多少个字节
 
 最后附上一句话
 
-{% highlight %}
+{% highlight bash %}
 一切的独裁都来自于加密.
 ---- 黑客
-{% endhighlight %}
+{% endhighlight bash %}
 
 多在生活中发现一些"教诲"中暗藏的玄机, 更新自己的人生坐标.
 
@@ -160,4 +160,4 @@ long(在不同平台上)占多少个字节
 
 ![img]({{ '/assets/images/wechat_20200629012831.png' | relative_url }}){: .center-image }*嗯, Unity不会死循环*
 
-![img]({{ '/assets/images/fov.git' | relative_url }}){: .center-image }*改变fov就像是使用一个可伸缩的望远镜*
+![img]({{ '/assets/images/fov.gif' | relative_url }}){: .center-image }*改变fov就像是使用一个可伸缩的望远镜*
