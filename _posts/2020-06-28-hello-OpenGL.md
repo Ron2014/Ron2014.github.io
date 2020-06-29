@@ -115,9 +115,20 @@ long(在不同平台上)占多少个字节
 空类占多少个字节
 怎么解决粘包问题
 如何编程增加CPU缓冲的命中率
+内存池的设计
 {% endhighlight bash %}
 
-都是很小的问题, 用一个main函数就可以搞定, 但值得去制定丰富的测试用例.
+都是很小的问题, 用一个main函数就可以搞定, 但值得去制定丰富的测试用例, 反复把玩.
+
+特别是垃圾回收机制的话题, 似乎从人们吐槽指针之后出现的各类语言, 不论号称自己是"托管式", 还是说"虚拟机实现跨平台", 它的易用性的卖点最终都会落到"垃圾回收"上. 总的离不开两大分类, 引用计数 + 标记清除. 剩下的, 循环引用/内存碎片/分代回收等等, 都是在此基础上的细化罢了.
+
+因为语言不同, 叫法还五花八门. 比如引用计数可以理解成智能指针, 标记清除(trace)有时候被翻译成追踪算法, 标记的过程是通过标记可达对象, 然后反向计算得到垃圾(不可达)对象, 其实就是'排除法', 有的人会叫它'孤岛算法'. 甚至会有问题讨论'分代回收和增量GC'有什么区别, 感觉就没啥区别, 它俩其实是一回事. 
+
+再说CPU的缓存的多核设计, 不就是硬件层面的分布式架构, 你敢信? [皓哥](https://coolshell.cn/articles/20793.html) 提到的 `缓存更新的一致性问题` 不就是游戏中跨服活动(例如跨服团购)的数据同步问题么? 逻辑服gas的数据是从中心服gcc中拉取下来的, 那么用MESI状态模型(修改/独占/共享/无效)似乎就能解决数据同步问题. 但前提是, CPU总线不是TCP链接, 它不是全双工的, 也没有网络延迟. :)
+
+![img]({{ '/assets/images/cpu_caches_data_sync.png' | relative_url }}){: .center-image }*MESI模型*
+
+这里说的垃圾回收和分布式芯片, 也都是从简单的东西出发, 会接触的各种概念和特性. 但说真的, 不一定工作中用得到, 去记这些杂名, 或者看了源码就想背下来更是没有意义的事情. 何不化整为零, 落个轻松自在, 若是实际项目中会用到, 到了落实到代码的层面, 再讨论那些连拼写和标点符号都不能错的细节. :)
 
 说了这么多, 其实是因为工作需要, 要搁置 OpenGL 一段时间, 转头去研究 skynet 了.
 
@@ -136,8 +147,7 @@ long(在不同平台上)占多少个字节
 最后附上一句话
 
 {% highlight bash %}
-一切的独裁都来自于加密.
----- 黑客
+一切的独裁都来自于加密. -- 黑客
 {% endhighlight bash %}
 
 多在生活中发现一些"教诲"中暗藏的玄机, 更新自己的人生坐标.
@@ -154,10 +164,10 @@ long(在不同平台上)占多少个字节
 
 ![img]({{ '/assets/images/gimbal_lock6.gif' | relative_url }}){: .center-image }*Unity中的万向锁*
 
-![img]({{ '/assets/images/wechat_20200629012855.png' | relative_url }}){: .center-image }*blinnPhong光照+Gamma校正*
+![img]({{ '/assets/images/blinnphong+gamma.png' | relative_url }}){: .center-image }*blinnPhong光照+Gamma校正*
 
-![img]({{ '/assets/images/wechat_20200629012933.png' | relative_url }}){: .center-image }*实例化技术渲染小行星*
+![img]({{ '/assets/images/instancing.png' | relative_url }}){: .center-image }*实例化小行星*
 
-![img]({{ '/assets/images/wechat_20200629012831.png' | relative_url }}){: .center-image }*嗯, Unity不会死循环*
+![img]({{ '/assets/images/mirror_loop.png' | relative_url }}){: .center-image }*嗯, Unity不会死循环*
 
 ![img]({{ '/assets/images/fov.gif' | relative_url }}){: .center-image }*改变fov就像是使用一个可伸缩的望远镜*
