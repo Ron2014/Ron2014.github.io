@@ -1,8 +1,3 @@
-<!--
- * @Author: Ron
- * @LastEditors: Ron
- * @FilePath: \Ron2014.github.io\_posts\2021-06-15-the-little-girl.md
--->
 ---
 layout: post
 title: 外婆、女孩和我
