@@ -11,7 +11,6 @@ title: About
 * 籍贯 湖北
 * 户籍 广州
 * 婚姻状况 未婚
-* 手机号/微信 13580425278
 * 工作邮箱 dev_ron@163.com
 * 博客 https://pensieve.cybeureka.com/
 * 仓库 https://github.com/Ron2014
